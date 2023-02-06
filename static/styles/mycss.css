@@ -132,19 +132,19 @@ button{
 }
 .catagory_link:nth-child(1){
     grid-area: img1;
-    background: url(/static/images/2.png) 50% 0%/cover no-repeat;
+    background: url(./static/images/2.png) 50% 0%/cover no-repeat;
 }
 .catagory_link:nth-child(2) {
     grid-area: img2;
-    background: url(/static/images/3.png) 50% 0%/cover no-repeat;
+    background: url(./static/images/3.png) 50% 0%/cover no-repeat;
 }
 .catagory_link:nth-child(3) {
     grid-area: img3;
-    background: url(/static/images/4.png) 50% 0%/cover no-repeat;
+    background: url(./static/images/4.png) 50% 0%/cover no-repeat;
 }
 .catagory_link:nth-child(4) {
     grid-area: img4;
-    background: url(/static/images/5_1.png) 50% 0%/cover no-repeat;
+    background: url(./static/images/5_1.png) 50% 0%/cover no-repeat;
 }
 .catagory_name{
     position:absolute;
@@ -214,13 +214,13 @@ button{
 .style_left{
     width: 48%;
     height: 100%;
-    background: url(/static/images/14.png) 50% 100%/550px no-repeat;
+    background: url(./static/images/14.png) 50% 100%/550px no-repeat;
 }
 .style_right{
     position: relative;
     width: 48%;
     height: 100%;
-    background: url(/static/images/15.png) 50% 0%/515px no-repeat;
+    background: url(./static/images/15.png) 50% 0%/515px no-repeat;
 }
 .style_right::after{
     position: absolute;
@@ -229,7 +229,7 @@ button{
     right: 0;
     width: 260px;
     height: 303px;
-    background: #fff url(/static/images/6.png) 100% 100%/227px 281px no-repeat;
+    background: #fff url(./static/images/6.png) 100% 100%/227px 281px no-repeat;
 }
 .style_link{
     position: absolute;
@@ -259,7 +259,7 @@ button{
 .collection_wrap{
     margin-top: 117px;
     height: 640px;
-    background: url(/static/images/17.png) no-repeat;
+    background: url(./static/images/17.png) no-repeat;
     background-size: cover;
 
 }
@@ -303,7 +303,7 @@ button{
     left: 0;
     width: 15px;
     height: 15px;
-    background: url(/static/images/location.svg) 50% 50%/100% no-repeat;
+    background: url(./static/images/location.svg) 50% 50%/100% no-repeat;
     transform: translateY(-50%);
 }
 .footer_email{
